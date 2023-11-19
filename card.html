@@ -1,0 +1,162 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>card page</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="fontawesome-free-6.4.2-web/css/all.css">
+</head>
+<body>
+    
+    <div class="first">
+        <nav class="nav justify-content-center align-items-center container" style="background-color: #FFA500;">
+        <ul class="nav">
+        
+            <li class="nav-item">
+              <a class="nav-link" href="index.html" style="color: black;">Home</a>
+            </li>
+            <li class="nav-item" >
+              <a class="nav-link" href="#" style="color: black;" >card</a>
+            </li>
+</ul>
+</nav>
+ <br> 
+ <br>
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="panel panel-info panel-shadow">
+            <div class="panel-heading">
+                <h4>
+                    <img class="img-circle img-thumbnail" src="images/slide-img.png" style="width: 200px;">
+                    Fruits Shop
+                </h4>
+            </div>
+
+
+            <div class="panel-body"> 
+                <div class="table-responsive">
+                <table class="table">
+                    <thead>
+                    <tr>
+                        <th>Product</th>
+                        <th>Description</th>
+                        <th>Qty</th>
+                        <th>Price</th>
+                        <th>Total</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><img src="images/card-item-1.png" class="img-cart"></td>
+                            <td><strong>Orange</strong><p>Fresh Fruit</p></td>
+                            <td>
+                                <form class="form-inline">
+                                    <input class="form-control" type="text" value="1" id="text-to-delete">
+                                    <button rel="tooltip" class="btn btn-default"><i class="fa fa-pencil"></i></button>
+                                    <a href="#" class="btn btn-primary" onclick="deleteText()"><i class="fa-sharp fa-solid fa-trash"></i></a>
+                                  </form>
+                            </td>
+                            <td>$54.00</td>
+                            <td>$54.00</td>
+                        </tr>
+                        <tr>
+                            <td><img src="images/card-item-2.png" class="img-cart"></td>
+                            <td><strong>Grapes </strong><p>Fresh Fruit</p></td>
+                            <td>
+                                <form class="form-inline">
+                                    <input class="form-control" type="text" value="1" id="text-to-delete2">
+                                    <button rel="tooltip" class="btn btn-default"><i class="fa fa-pencil"></i></button>
+                                    <a href="#" class="btn btn-primary" onclick="deleteText2()"><i class="fa-sharp fa-solid fa-trash"></i></a>
+                                  </form>
+                            </td>
+                            <td>$16.00</td>
+                            <td>$32.00</td>
+                        </tr>
+
+                        <tr>
+                            <td><img src="images/card-item-3.png" class="img-cart"></td>
+                            <td><strong>Gauva </strong><p>Fresh Fruit</p></td>
+                            <td>
+                                <form class="form-inline">
+                                    <input class="form-control" type="text" value="1" id="text-to-delete3">
+                                    <button rel="tooltip" class="btn btn-default"><i class="fa fa-pencil"></i></button>
+                                    <a href="#" class="btn btn-primary" onclick="deleteText3()"><i class="fa-sharp fa-solid fa-trash"></i></a>
+                                  </form>
+                            </td>
+                            <td>$16.00</td>
+                            <td>$32.00</td>
+                        </tr>
+                        <tr>
+                            <td><img src="images/pngtree-vector-apple-icon-png-image_1577311 (1).png" class="img-cart"></td>
+                            <td><strong>Apple </strong><p>Fresh Fruit</p></td>
+                            <td>
+                                <form class="form-inline">
+                                    <input class="form-control" type="text" value="1" id="text-to-delete4">
+                                    <button rel="tooltip" class="btn btn-default"><i class="fa fa-pencil"></i></button>
+                                    <a href="#" class="btn btn-primary" onclick="deleteText4()"><i class="fa-sharp fa-solid fa-trash"></i></a>
+                                  </form>
+                            </td>
+                            <td>$16.00</td>
+                            <td>$32.00</td>
+                        </tr>
+                        <tr>
+                            <td><img src="images/downloadq.png" class="img-cart"></td>
+                            <td><strong>Watermelon </strong><p>Fresh Fruit</p></td>
+                            <td>
+                                <form class="form-inline">
+                                    <input class="form-control" type="text" value="1" id="text-to-delete5">
+                                    <button rel="tooltip" class="btn btn-default"><i class="fa fa-pencil"></i></button>
+                                    <a href="#" class="btn btn-primary" onclick="deleteText5()"><i class="fa-sharp fa-solid fa-trash"></i></a>
+                                  </form>
+                            </td>
+                            <td>$16.00</td>
+                            <td>$32.00</td>
+                        </tr>
+                        <tr>
+                            <td><img src="images/download3.png" class="img-cart"></td>
+                            <td><strong>Banana </strong><p>Fresh Fruit</p></td>
+                            <td>
+                                <form class="form-inline">
+                                    <input class="form-control" type="text" value="1" id="text-to-delete6">
+                                    <button rel="tooltip" class="btn btn-default"><i class="fa fa-pencil"></i></button>
+                                    <a href="#" class="btn btn-primary" onclick="deleteText6()"><i class="fa-sharp fa-solid fa-trash"></i></a>
+                                  </form>
+                            </td>
+                            <td>$16.00</td>
+                            <td>$32.00</td>
+                        </tr>
+
+                        <tr>
+                            <td colspan="6">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td colspan="4" class="text-right">Total Product</td>
+                            <td>$86.00</td>
+                        </tr>
+                        <tr>
+                            <td colspan="4" class="text-right">Total Shipping</td>
+                            <td>$2.00</td>
+                        </tr>
+                        <tr>
+                            <td colspan="4" class="text-right"><strong>Total</strong></td>
+                            <td>$88.00</td>
+                        </tr>
+                        </tbody>
+</table>
+
+
+    </div>
+
+            </div>
+            <a href="index.html" class="btn btn-success" style="background-color: #FFA500;"><span class="glyphicon glyphicon-arrow-left" style="color: #FFA500;"></span>&nbsp;Continue Shopping</a>
+
+        </div>
+    </div>
+    <script src="card.js"></script>
+    <script src="bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
